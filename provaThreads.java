@@ -18,8 +18,8 @@ public class provaThreads {
      */
     public static void main(String[] args) {
 
-        Hi ciao1 = new Hi();
-        Hello ciao2 = new Hello();
+        Say ciao1 = new Say("Hi");
+        Say ciao2 = new Say("Hello");
         Say parola = new Say("CIAO");
         ciao1.start();
         ciao2.start();
