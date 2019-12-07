@@ -18,6 +18,8 @@ public class Say extends Thread {
     }
 
     public void run() {
-        System.out.print(parola);
+        for(int i=0,i<10,i++){
+            System.out.print(parola);
+    }
     }
 }
